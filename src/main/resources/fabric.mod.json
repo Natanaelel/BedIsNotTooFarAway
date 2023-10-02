@@ -1,0 +1,28 @@
+{
+	"schemaVersion": 1,
+	"id": "bedisnottoofaraway",
+	"version": "0.0.1",
+	"name": "BedIsNotTooFarAway",
+	"description": "Disables the annoying popup 'You may not rest now; the bed is too far away' and instead lets you sleep.",
+	"authors": [
+		"Natte"
+	],
+	"contact": {
+		"homepage": "https://github.com/Natanaelel/BedIsNotTooFarAway",
+		"sources": "https://github.com/Natanaelel/BedIsNotTooFarAway"
+	},
+	"license": "MIT",
+	"icon": "assets/bedisnottoofaraway/icon.png",
+	"environment": "*",
+	"entrypoints": {},
+	"mixins": [
+		"bedisnottoofaraway.mixins.json"
+	],
+	"depends": {
+		"fabricloader": ">=0.14.22",
+		"minecraft": "~1.20.1",
+		"java": ">=17"
+	},
+	"suggests": {
+	}
+}
